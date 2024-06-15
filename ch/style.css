@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 9em;
+  max-width: 1440px;
+  padding-right: 50em;
+  padding-bottom: 5em;
+  width: 100%;
+}
+body {
+  background-color: #f3eae3;
+  width: 100%;
+}
+
+img {
+  max-width: 40%;
+  max-height: 15%;
+  float: right;
+  border: none;
+  border-radius: 5%;
+  height: 3%;
+}
+
+.info {
+  float: left;
+  border: none;
+  background-color: white;
+  max-width: 250px;
+  max-height: 500px;
+  border: none;
+  border-radius: 5%;
+}
+h5 {
+  color: gray;
+}
+
+h1 {
+  font-family: "Fraunces";
+  font-size: 30px;
+  font-weight: light;
+}
+
+p {
+  font-size: 14px;
+  padding-left: 20px;
+  padding-right: 20%;
+  float: left;
+  color: gray;
+  height: 2%;
+  font-size: 14px;
+}
+
+.discount {
+  font-size: 30px;
+  font-family: "Fraunces";
+  color: #3d8067;
+}
+.normal {
+  display: block;
+  text-align: center;
+  font-size: 10px;
+  font-family: "Fraunces";
+  color: gray;
+  padding-bottom: 10%;
+  padding-left: 7em;
+  padding-top: 5%;
+}
+.cart {
+  display: block;
+  text-align: center;
+  border: none;
+  color: white;
+  border: none;
+  border-radius: 4%;
+  color: white;
+  font-size: 15px;
+  margin: 0% auto;
+  padding: 3px 20px;
+  background: #3d8067;
+  color: white;
+}
